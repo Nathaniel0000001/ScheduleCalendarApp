@@ -1,0 +1,28 @@
+.custom-btn {
+    background-color: #ffffff;
+    color: white;
+    border: 1px solid #716b6c;
+    transition: background-color 0.3s;
+  }
+  ::placeholder {
+    color: #a29bfe; /* Light purple */
+    opacity: 1;     /* Ensure full visibility */
+  }
+  
+  /* Optional: Target inputs only */
+
+  .custom-btn:hover {
+    background-color: #3e3f49; /* darker on hover */
+  }
+  
+  .custom-btn-middle {
+    background-color: #716b6c;
+    color: white;
+    border: 1px solid #716b6c;
+    border-left: none;
+  }
+  
+  .custom-btn-middle:hover {
+    background-color: #3e3f49;
+  }
+  

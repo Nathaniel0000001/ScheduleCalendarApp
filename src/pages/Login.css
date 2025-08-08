@@ -1,0 +1,12 @@
+.custom-placeholder::placeholder {
+  color: #ccc; /* Light gray or whatever you prefer */
+  opacity: 1;  /* Ensures color is not faded */
+}
+.form-control.border-bottom {
+  border-bottom-width: 2px; /* Make it thicker */
+}
+
+.form-control:focus {
+  box-shadow: none !important; /* Remove glow */
+  border-color: #0070e0e5 !important; /* Optional: lighter blue */
+}
